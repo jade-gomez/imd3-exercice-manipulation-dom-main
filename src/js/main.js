@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (exercice1) {
     // Ecrire ici tout le code pour l'exercice 1: Sélecteurs JavaScript
+    document.querySelector(".broccoli").remove();
+    document.querySelector("#green-veggie").remove();
+    document.querySelector('.broccoli[data-organic="true"]').remove();
+    document.querySelector(".broccoli.steamed").remove();
+    document.querySelector("#last-broccoli").remove();
   }
 
   if (exercice2) {
